@@ -1,6 +1,6 @@
 # Windows Toast Notifications
 
-[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/KernelMeltdown/windows-toast-notifications)
+[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/Strg-Alt-Entf-0x00/windows-toast-notifications)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 [![C++](https://img.shields.io/badge/C++-20-orange.svg)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
