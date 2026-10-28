@@ -16,11 +16,11 @@ cd /d "%~dp0"
 
 REM Create build and logs directories
 if not exist build mkdir build
-if not exist logs mkdir logs
+if not exist .logs mkdir .logs
 
 REM Timestamp for log file
 for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd_HH-mm-ss"') do set TS=%%i
-set LOG=logs\%TS%_build.log
+set LOG=.logs\%TS%_build.log
 
 REM Check for Visual Studio 2022 (BuildTools first, then Community/Professional)
 if exist "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" (
